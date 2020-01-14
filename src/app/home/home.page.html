@@ -21,8 +21,9 @@
     [outerStrokeGradient]="true"
     [outerStrokeGradientStopColor]="'#FF00CB'"
     [showInnerStroke]="false"
+    [responsive]="true"
   ></circle-progress>
 
-  <p>{{ elapsed.h }}</p>
+  <p>{{ elapsed.h }}:{{ elapsed.m }}:{{ elapsed.s }}</p>
 
 </ion-content>
